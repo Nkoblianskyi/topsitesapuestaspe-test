@@ -26,12 +26,12 @@ export function CookieBanner() {
   if (!isVisible) return null
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 z-50 bg-slate-900/95 border-t border-red-800/50 backdrop-blur-sm">
+    <div className="fixed bottom-0 left-0 right-0 z-50 bg-white/95 border-t border-red-300 backdrop-blur-sm shadow-lg">
       <div className="max-w-7xl mx-auto px-4 py-4">
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-sm text-gray-300 text-center sm:text-left">
+          <p className="text-sm text-slate-700 text-center sm:text-left">
             Utilizamos cookies para mejorar su experiencia. Al continuar navegando, acepta nuestra{" "}
-            <Link href="/politica-cookies" className="text-yellow-400 hover:text-yellow-300 underline">
+            <Link href="/politica-cookies" className="text-red-600 hover:text-red-700 underline font-semibold">
               política de cookies
             </Link>
             .
@@ -46,7 +46,7 @@ export function CookieBanner() {
             <Button
               onClick={rejectCookies}
               variant="outline"
-              className="border-red-800 text-gray-300 hover:bg-slate-800 bg-transparent"
+              className="border-red-300 text-slate-700 hover:bg-red-50 bg-white"
             >
               Rechazar
             </Button>

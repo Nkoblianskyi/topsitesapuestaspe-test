@@ -4,39 +4,38 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Dark professional color palette with Peru colors (red, white, gold) */
-  --background: oklch(0.12 0.015 30);
-  --foreground: oklch(0.98 0.005 30);
-  --card: oklch(0.15 0.015 30);
-  --card-foreground: oklch(0.98 0.005 30);
-  --popover: oklch(0.14 0.015 30);
-  --popover-foreground: oklch(0.98 0.005 30);
+  --background: oklch(0.98 0.005 30);
+  --foreground: oklch(0.15 0.015 30);
+  --card: oklch(0.99 0.002 30);
+  --card-foreground: oklch(0.15 0.015 30);
+  --popover: oklch(0.99 0.002 30);
+  --popover-foreground: oklch(0.15 0.015 30);
   --primary: oklch(0.55 0.25 25); /* Red - Peru flag color */
   --primary-foreground: oklch(0.98 0 0);
-  --secondary: oklch(0.22 0.02 30);
-  --secondary-foreground: oklch(0.98 0.005 30);
-  --muted: oklch(0.2 0.02 30);
-  --muted-foreground: oklch(0.65 0.015 30);
+  --secondary: oklch(0.95 0.01 30);
+  --secondary-foreground: oklch(0.15 0.015 30);
+  --muted: oklch(0.96 0.01 30);
+  --muted-foreground: oklch(0.45 0.015 30);
   --accent: oklch(0.75 0.18 60); /* Gold accent */
-  --accent-foreground: oklch(0.15 0.015 30);
+  --accent-foreground: oklch(0.98 0 0);
   --destructive: oklch(0.5 0.25 25);
   --destructive-foreground: oklch(0.98 0 0);
-  --border: oklch(0.25 0.02 30);
-  --input: oklch(0.25 0.02 30);
+  --border: oklch(0.9 0.01 30);
+  --input: oklch(0.9 0.01 30);
   --ring: oklch(0.55 0.25 25);
   --chart-1: oklch(0.55 0.25 25); /* Red */
   --chart-2: oklch(0.75 0.18 60); /* Gold */
-  --chart-3: oklch(0.95 0.005 0); /* White */
+  --chart-3: oklch(0.98 0.005 0); /* White */
   --chart-4: oklch(0.45 0.2 35); /* Copper/Bronze */
   --chart-5: oklch(0.35 0.15 30); /* Dark brown */
   --radius: 0.5rem;
-  --sidebar: oklch(0.15 0.015 30);
-  --sidebar-foreground: oklch(0.98 0.005 30);
+  --sidebar: oklch(0.99 0.002 30);
+  --sidebar-foreground: oklch(0.15 0.015 30);
   --sidebar-primary: oklch(0.55 0.25 25);
   --sidebar-primary-foreground: oklch(0.98 0 0);
-  --sidebar-accent: oklch(0.22 0.02 30);
-  --sidebar-accent-foreground: oklch(0.98 0.005 30);
-  --sidebar-border: oklch(0.25 0.02 30);
+  --sidebar-accent: oklch(0.95 0.01 30);
+  --sidebar-accent-foreground: oklch(0.15 0.015 30);
+  --sidebar-border: oklch(0.9 0.01 30);
   --sidebar-ring: oklch(0.55 0.25 25);
 }
 

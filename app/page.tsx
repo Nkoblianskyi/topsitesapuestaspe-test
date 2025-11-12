@@ -11,7 +11,7 @@ import { TopCasinoPopup } from "@/components/top-casino-popup"
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 pt-20">
+    <div className="min-h-screen bg-gradient-to-b from-gray-50 via-white to-gray-100 pt-20">
       <Header />
       <HeroSection />
       <div id="rankings">

@@ -5,19 +5,19 @@ import Link from "next/link"
 
 export default function PrivacyPolicyPage() {
   return (
-    <div className="min-h-screen bg-gray-50 pt-20">
+    <div className="min-h-screen bg-gradient-to-b from-red-50 via-white to-yellow-50 pt-20">
       <Header />
 
       <main className="max-w-4xl mx-auto px-4 py-12">
         <Link
           href="/"
-          className="inline-flex items-center text-blue-600 hover:text-blue-700 mb-8 transition-colors font-medium"
+          className="inline-flex items-center text-red-600 hover:text-red-700 mb-8 transition-colors font-medium"
         >
           <ArrowLeft className="h-4 w-4 mr-2" />
           Volver al inicio
         </Link>
 
-        <div className="bg-white rounded-lg shadow-lg p-8 md:p-12 border border-gray-200">
+        <div className="bg-white rounded-lg shadow-lg p-8 md:p-12 border-2 border-red-600">
           <h1 className="text-4xl font-bold mb-8 text-gray-900">Política de Privacidad</h1>
 
           <div className="prose prose-lg max-w-none">

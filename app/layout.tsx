@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   title: "TopSitesApuestasPE - Las Mejores Casas de Apuestas en Perú",
   description:
     "Descubre las mejores casas de apuestas deportivas licenciadas en Perú. Rankings actualizados, bonos exclusivos y análisis detallados de las plataformas más confiables.",
+    generator: 'v0.app'
 }
 
 export default function RootLayout({
