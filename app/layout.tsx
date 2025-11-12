@@ -7,10 +7,9 @@ import { Suspense } from "react"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "SitesDeCasinosPortugal - Os Melhores Casinos Online de Portugal",
+  title: "TopSitesApuestasPE - Las Mejores Casas de Apuestas en Perú",
   description:
-    "Descubra os melhores casinos online licenciados em Portugal. Rankings, bónus e análises detalhadas dos casinos portugueses mais confiáveis.",
-    generator: 'v0.app'
+    "Descubre las mejores casas de apuestas deportivas licenciadas en Perú. Rankings actualizados, bonos exclusivos y análisis detallados de las plataformas más confiables.",
 }
 
 export default function RootLayout({
@@ -19,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="pt">
+    <html lang="es">
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable} dark`}>
         <Suspense fallback={null}>{children}</Suspense>
         <Analytics />

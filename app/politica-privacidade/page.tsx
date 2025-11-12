@@ -24,93 +24,94 @@ export default function PrivacyPolicyPage() {
             className="inline-flex items-center text-yellow-400 hover:text-yellow-300 mb-8 transition-colors"
           >
             <ArrowLeft className="h-4 w-4 mr-2" />
-            Voltar ao início
+            Volver al inicio
           </Link>
 
           <h1 className="text-4xl font-bold mb-8 bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent">
-            Política de Privacidade
+            Política de Privacidad
           </h1>
 
           <div className="prose prose-invert max-w-none">
             <section className="mb-8">
-              <h2 className="text-2xl font-bold text-white mb-4">Informações que recolhemos</h2>
+              <h2 className="text-2xl font-bold text-white mb-4">Información que recopilamos</h2>
               <p className="text-gray-300 mb-4">
-                Recolhemos informações que nos fornece diretamente, como quando se regista no nosso site, subscreve a
-                nossa newsletter ou nos contacta.
+                Recopilamos información que nos proporciona directamente, como cuando se registra en nuestro sitio, se
+                suscribe a nuestro boletín o nos contacta.
               </p>
               <ul className="text-gray-300 mb-4 list-disc pl-6">
-                <li>Nome e endereço de email</li>
-                <li>Informações de contacto</li>
-                <li>Preferências de comunicação</li>
-                <li>Dados de utilização do website</li>
+                <li>Nombre y dirección de correo electrónico</li>
+                <li>Información de contacto</li>
+                <li>Preferencias de comunicación</li>
+                <li>Datos de uso del sitio web</li>
               </ul>
             </section>
 
             <section className="mb-8">
-              <h2 className="text-2xl font-bold text-white mb-4">Como utilizamos as suas informações</h2>
-              <p className="text-gray-300 mb-4">Utilizamos as informações recolhidas para:</p>
+              <h2 className="text-2xl font-bold text-white mb-4">Cómo utilizamos su información</h2>
+              <p className="text-gray-300 mb-4">Utilizamos la información recopilada para:</p>
               <ul className="text-gray-300 mb-4 list-disc pl-6">
-                <li>Fornecer e melhorar os nossos serviços</li>
-                <li>Comunicar consigo sobre atualizações e ofertas</li>
-                <li>Personalizar a sua experiência</li>
-                <li>Analisar e melhorar o nosso website</li>
-                <li>Cumprir obrigações legais</li>
+                <li>Proporcionar y mejorar nuestros servicios</li>
+                <li>Comunicarnos con usted sobre actualizaciones y ofertas</li>
+                <li>Personalizar su experiencia</li>
+                <li>Analizar y mejorar nuestro sitio web</li>
+                <li>Cumplir con obligaciones legales</li>
               </ul>
             </section>
 
             <section className="mb-8">
-              <h2 className="text-2xl font-bold text-white mb-4">Partilha de informações</h2>
+              <h2 className="text-2xl font-bold text-white mb-4">Compartir información</h2>
               <p className="text-gray-300 mb-4">
-                Não vendemos, alugamos ou partilhamos as suas informações pessoais com terceiros para fins comerciais,
-                exceto conforme descrito nesta política.
+                No vendemos, alquilamos ni compartimos su información personal con terceros para fines comerciales,
+                excepto como se describe en esta política.
               </p>
               <p className="text-gray-300">
-                Podemos partilhar informações com parceiros de confiança que nos ajudam a operar o nosso website e
-                fornecer serviços, desde que concordem em manter essas informações confidenciais.
+                Podemos compartir información con socios de confianza que nos ayudan a operar nuestro sitio web y
+                proporcionar servicios, siempre que acepten mantener esta información confidencial.
               </p>
             </section>
 
             <section className="mb-8">
-              <h2 className="text-2xl font-bold text-white mb-4">Segurança dos dados</h2>
+              <h2 className="text-2xl font-bold text-white mb-4">Seguridad de los datos</h2>
               <p className="text-gray-300 mb-4">
-                Implementamos medidas de segurança adequadas para proteger as suas informações pessoais contra acesso
-                não autorizado, alteração, divulgação ou destruição.
+                Implementamos medidas de seguridad adecuadas para proteger su información personal contra acceso no
+                autorizado, alteración, divulgación o destrucción.
               </p>
             </section>
 
             <section className="mb-8">
-              <h2 className="text-2xl font-bold text-white mb-4">Os seus direitos</h2>
-              <p className="text-gray-300 mb-4">Tem o direito de:</p>
+              <h2 className="text-2xl font-bold text-white mb-4">Sus derechos</h2>
+              <p className="text-gray-300 mb-4">Tiene derecho a:</p>
               <ul className="text-gray-300 mb-4 list-disc pl-6">
-                <li>Aceder às suas informações pessoais</li>
-                <li>Corrigir informações incorretas</li>
-                <li>Solicitar a eliminação dos seus dados</li>
-                <li>Opor-se ao processamento dos seus dados</li>
-                <li>Portabilidade dos dados</li>
+                <li>Acceder a su información personal</li>
+                <li>Corregir información incorrecta</li>
+                <li>Solicitar la eliminación de sus datos</li>
+                <li>Oponerse al procesamiento de sus datos</li>
+                <li>Portabilidad de datos</li>
               </ul>
             </section>
 
             <section className="mb-8">
-              <h2 className="text-2xl font-bold text-white mb-4">Jogo responsável</h2>
+              <h2 className="text-2xl font-bold text-white mb-4">Juego responsable</h2>
               <p className="text-gray-300 mb-4">
-                Promovemos o jogo responsável e fornecemos informações sobre recursos de ajuda para problemas
-                relacionados com o jogo. Se tem problemas com o jogo, procure ajuda profissional.
+                Promovemos el juego responsable y proporcionamos información sobre recursos de ayuda para problemas
+                relacionados con el juego. Si tiene problemas con el juego, busque ayuda profesional.
               </p>
               <p className="text-gray-300">
-                Este site é destinado apenas a maiores de 18 anos e residentes em Portugal onde o jogo online é legal.
+                Este sitio está destinado solo para mayores de 18 años y residentes en Perú donde el juego en línea es
+                legal.
               </p>
             </section>
 
             <section className="mb-8">
               <h2 className="text-2xl font-bold text-white mb-4">Contacto</h2>
               <p className="text-gray-300">
-                Se tiver questões sobre esta política de privacidade ou sobre como tratamos os seus dados pessoais, pode
-                contactar-nos através do nosso website.
+                Si tiene preguntas sobre esta política de privacidad o sobre cómo tratamos sus datos personales, puede
+                contactarnos a través de nuestro sitio web.
               </p>
             </section>
 
             <div className="text-sm text-gray-500 mt-12 pt-8 border-t border-yellow-500/20">
-              <p>Última atualização: {new Date().toLocaleDateString("pt-PT", { year: "numeric", month: "long" })}</p>
+              <p>Última actualización: {new Date().toLocaleDateString("es-PE", { year: "numeric", month: "long" })}</p>
             </div>
           </div>
         </main>

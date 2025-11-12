@@ -24,7 +24,7 @@ export default function CookiePolicyPage() {
             className="inline-flex items-center text-yellow-400 hover:text-yellow-300 mb-8 transition-colors"
           >
             <ArrowLeft className="h-4 w-4 mr-2" />
-            Voltar ao início
+            Volver al inicio
           </Link>
 
           <h1 className="text-4xl font-bold mb-8 bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent">
@@ -33,23 +33,23 @@ export default function CookiePolicyPage() {
 
           <div className="prose prose-invert max-w-none">
             <section className="mb-8">
-              <h2 className="text-2xl font-bold text-white mb-4">O que são cookies?</h2>
+              <h2 className="text-2xl font-bold text-white mb-4">¿Qué son las cookies?</h2>
               <p className="text-gray-300 mb-4">
-                Os cookies são pequenos ficheiros de texto que são colocados no seu computador ou dispositivo móvel
-                quando visita um website. São amplamente utilizados para fazer com que os websites funcionem, ou
-                funcionem de forma mais eficiente, bem como para fornecer informações aos proprietários do site.
+                Las cookies son pequeños archivos de texto que se colocan en su computadora o dispositivo móvil cuando
+                visita un sitio web. Se utilizan ampliamente para hacer que los sitios web funcionen, o funcionen de
+                manera más eficiente, así como para proporcionar información a los propietarios del sitio.
               </p>
             </section>
 
             <section className="mb-8">
-              <h2 className="text-2xl font-bold text-white mb-4">Como utilizamos os cookies</h2>
+              <h2 className="text-2xl font-bold text-white mb-4">Cómo utilizamos las cookies</h2>
               <p className="text-gray-300 mb-4">Utilizamos cookies para:</p>
               <ul className="text-gray-300 mb-4 list-disc pl-6">
-                <li>Melhorar a funcionalidade do nosso website</li>
-                <li>Analisar como os visitantes utilizam o nosso site</li>
-                <li>Personalizar a sua experiência</li>
-                <li>Lembrar as suas preferências</li>
-                <li>Fornecer conteúdo relevante</li>
+                <li>Mejorar la funcionalidad de nuestro sitio web</li>
+                <li>Analizar cómo los visitantes utilizan nuestro sitio</li>
+                <li>Personalizar su experiencia</li>
+                <li>Recordar sus preferencias</li>
+                <li>Proporcionar contenido relevante</li>
               </ul>
             </section>
 
@@ -57,50 +57,50 @@ export default function CookiePolicyPage() {
               <h2 className="text-2xl font-bold text-white mb-4">Tipos de cookies que utilizamos</h2>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold text-yellow-400 mb-2">Cookies Essenciais</h3>
+                <h3 className="text-xl font-semibold text-yellow-400 mb-2">Cookies Esenciales</h3>
                 <p className="text-gray-300">
-                  Estes cookies são necessários para o funcionamento básico do website e não podem ser desativados.
+                  Estas cookies son necesarias para el funcionamiento básico del sitio web y no se pueden desactivar.
                 </p>
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold text-yellow-400 mb-2">Cookies de Análise</h3>
+                <h3 className="text-xl font-semibold text-yellow-400 mb-2">Cookies de Análisis</h3>
                 <p className="text-gray-300">
-                  Ajudam-nos a compreender como os visitantes interagem com o nosso website, fornecendo informações
-                  sobre as páginas visitadas.
+                  Nos ayudan a comprender cómo los visitantes interactúan con nuestro sitio web, proporcionando
+                  información sobre las páginas visitadas.
                 </p>
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold text-yellow-400 mb-2">Cookies de Funcionalidade</h3>
+                <h3 className="text-xl font-semibold text-yellow-400 mb-2">Cookies de Funcionalidad</h3>
                 <p className="text-gray-300">
-                  Permitem que o website se lembre das escolhas que faz e forneça funcionalidades melhoradas e
+                  Permiten que el sitio web recuerde las elecciones que hace y proporcione funcionalidades mejoradas y
                   personalizadas.
                 </p>
               </div>
             </section>
 
             <section className="mb-8">
-              <h2 className="text-2xl font-bold text-white mb-4">Gestão de cookies</h2>
+              <h2 className="text-2xl font-bold text-white mb-4">Gestión de cookies</h2>
               <p className="text-gray-300 mb-4">
-                Pode controlar e/ou eliminar cookies conforme desejar. Pode eliminar todos os cookies que já estão no
-                seu computador e pode configurar a maioria dos navegadores para impedir que sejam colocados.
+                Puede controlar y/o eliminar cookies como desee. Puede eliminar todas las cookies que ya están en su
+                computadora y puede configurar la mayoría de los navegadores para evitar que se coloquen.
               </p>
               <p className="text-gray-300">
-                No entanto, se o fizer, poderá ter de ajustar manualmente algumas preferências sempre que visitar um
-                site e alguns serviços e funcionalidades poderão não funcionar.
+                Sin embargo, si lo hace, es posible que tenga que ajustar manualmente algunas preferencias cada vez que
+                visite un sitio y algunos servicios y funcionalidades pueden no funcionar.
               </p>
             </section>
 
             <section className="mb-8">
               <h2 className="text-2xl font-bold text-white mb-4">Contacto</h2>
               <p className="text-gray-300">
-                Se tiver questões sobre a nossa política de cookies, pode contactar-nos através do nosso website.
+                Si tiene preguntas sobre nuestra política de cookies, puede contactarnos a través de nuestro sitio web.
               </p>
             </section>
 
             <div className="text-sm text-gray-500 mt-12 pt-8 border-t border-yellow-500/20">
-              <p>Última atualização: {new Date().toLocaleDateString("pt-PT", { year: "numeric", month: "long" })}</p>
+              <p>Última actualización: {new Date().toLocaleDateString("es-PE", { year: "numeric", month: "long" })}</p>
             </div>
           </div>
         </main>

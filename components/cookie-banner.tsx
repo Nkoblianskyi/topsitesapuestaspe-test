@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
-import { X } from "lucide-react"
+import Link from "next/link"
 
 export function CookieBanner() {
   const [isVisible, setIsVisible] = useState(false)
@@ -19,32 +19,38 @@ export function CookieBanner() {
     setIsVisible(false)
   }
 
+  const rejectCookies = () => {
+    setIsVisible(false)
+  }
+
   if (!isVisible) return null
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 bg-slate-900/95 backdrop-blur-sm border-t border-blue-500/30 p-4 z-50 shadow-lg">
-      <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
-        <div className="text-sm text-gray-300">
-          <p>
-            Utilizamos cookies para mejorar tu experiencia en nuestro sitio. Al continuar navegando, aceptas nuestra{" "}
-            <a href="/politica-cookies" className="text-blue-400 hover:underline">
+    <div className="fixed bottom-0 left-0 right-0 z-50 bg-slate-900/95 border-t border-red-800/50 backdrop-blur-sm">
+      <div className="max-w-7xl mx-auto px-4 py-4">
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+          <p className="text-sm text-gray-300 text-center sm:text-left">
+            Utilizamos cookies para mejorar su experiencia. Al continuar navegando, acepta nuestra{" "}
+            <Link href="/politica-cookies" className="text-yellow-400 hover:text-yellow-300 underline">
               política de cookies
-            </a>
+            </Link>
             .
           </p>
-        </div>
-        <div className="flex items-center gap-2">
-          <Button onClick={acceptCookies} className="bg-blue-600 hover:bg-blue-700 text-white font-medium">
-            Aceptar Cookies
-          </Button>
-          <Button
-            variant="ghost"
-            size="icon"
-            onClick={() => setIsVisible(false)}
-            className="text-gray-400 hover:text-white"
-          >
-            <X className="h-4 w-4" />
-          </Button>
+          <div className="flex gap-3">
+            <Button
+              onClick={acceptCookies}
+              className="bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-600 hover:to-yellow-700 text-slate-900 font-semibold shadow-lg shadow-yellow-500/20"
+            >
+              Aceptar
+            </Button>
+            <Button
+              onClick={rejectCookies}
+              variant="outline"
+              className="border-red-800 text-gray-300 hover:bg-slate-800 bg-transparent"
+            >
+              Rechazar
+            </Button>
+          </div>
         </div>
       </div>
     </div>
